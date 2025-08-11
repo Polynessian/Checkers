@@ -9,3 +9,5 @@ x64
 packages
 Debug
 Release
+.vscode
+CMakeLists.txt
