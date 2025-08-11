@@ -1,19 +1,20 @@
 {
-    "WindowSize": {
-        "Width": 0,
-        "Hight": 0
+    "WindowSize": { // Размер окна приложения
+        "Width": 0,   // Ширина окна (установлена в 0)
+        "Height": 0   // Высота окна (установлена в 0)
     },
-    "Bot": {
-        "IsWhiteBot": false,
-        "IsBlackBot": true,
-        "WhiteBotLevel": 0,
-        "BlackBotLevel": 5,
-        "BotScoringType": "NumberAndPotential",
-        "BotDelayMS": 0,
-        "NoRandom": false,
-        "Optimization": "O1"
+    "Bot": { // Настройки игрового бота
+        "IsWhiteBot": false,       // Бот играет черными фигурами
+        "IsBlackBot": true,        // Бот играет черными фигурами
+        "WhiteBotLevel": 0,        // Уровень белого бота (не используется, так как бот черный)
+        "BlackBotLevel": 5,        // Уровень черного бота (средний уровень сложности)
+        "BotScoringType": "NumberAndPotential", // Метод оценки позиции: количество фигур + потенциал позиций
+        "BotDelayMS": 0,           // Задержка хода бота (нет задержки)
+        "NoRandom": false,          // Разрешено случайное поведение
+        "Optimization": "O1"       // Тип оптимизации алгоритма (уровень O1)
     },
-    "Game": {
-        "MaxNumTurns": 120
+    "Game": { // Основные настройки игры
+        "MaxNumTurns": 120          // Максимальное число ходов в партии
     }
+    
 }
