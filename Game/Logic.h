@@ -126,7 +126,7 @@ private:
     //
     // Параметры:
     // - color: цвет игрока
-    // - mtx: текущая матрица доски
+    // - mtx: текущая  матрица доски
     void find_turns(const bool color, const vector<vector<POS_T>>& mtx)
     {
         vector<move_pos> result_turns;

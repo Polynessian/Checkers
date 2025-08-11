@@ -6,7 +6,7 @@
 #include "../Models/Move.h"
 #include "../Models/Project_path.h"
 
-#ifdef __APPLE__ // Специфичные включения библиотек для платформы Apple
+#ifdef __APPLE__ // Специфичные  включения библиотек для платформы Apple
     #include <SDL2/SDL.h>
     #include <SDL2/SDL_image.h>
 #else // Универсальные библиотеки для Windows и Linux
